@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'String Challenge' target in the 'String Challenge' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

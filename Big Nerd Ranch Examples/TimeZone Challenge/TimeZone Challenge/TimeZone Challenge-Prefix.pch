@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'TimeZone Challenge' target in the 'TimeZone Challenge' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

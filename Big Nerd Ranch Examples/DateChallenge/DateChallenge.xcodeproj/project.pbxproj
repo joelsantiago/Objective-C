@@ -1,0 +1,249 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DF274C417744956006014CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF274C317744956006014CF /* Foundation.framework */; };
+		5DF274C717744956006014CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF274C617744956006014CF /* main.m */; };
+		5DF274CB17744956006014CF /* DateChallenge.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5DF274CA17744956006014CF /* DateChallenge.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5DF274BE17744956006014CF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				5DF274CB17744956006014CF /* DateChallenge.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5DF274C017744956006014CF /* DateChallenge */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DateChallenge; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF274C317744956006014CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5DF274C617744956006014CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5DF274C917744956006014CF /* DateChallenge-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DateChallenge-Prefix.pch"; sourceTree = "<group>"; };
+		5DF274CA17744956006014CF /* DateChallenge.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DateChallenge.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DF274BD17744956006014CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF274C417744956006014CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DF274B717744956006014CF = {
+			isa = PBXGroup;
+			children = (
+				5DF274C517744956006014CF /* DateChallenge */,
+				5DF274C217744956006014CF /* Frameworks */,
+				5DF274C117744956006014CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DF274C117744956006014CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DF274C017744956006014CF /* DateChallenge */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DF274C217744956006014CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DF274C317744956006014CF /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DF274C517744956006014CF /* DateChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				5DF274C617744956006014CF /* main.m */,
+				5DF274CA17744956006014CF /* DateChallenge.1 */,
+				5DF274C817744956006014CF /* Supporting Files */,
+			);
+			path = DateChallenge;
+			sourceTree = "<group>";
+		};
+		5DF274C817744956006014CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DF274C917744956006014CF /* DateChallenge-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DF274BF17744956006014CF /* DateChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DF274CE17744956006014CF /* Build configuration list for PBXNativeTarget "DateChallenge" */;
+			buildPhases = (
+				5DF274BC17744956006014CF /* Sources */,
+				5DF274BD17744956006014CF /* Frameworks */,
+				5DF274BE17744956006014CF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DateChallenge;
+			productName = DateChallenge;
+			productReference = 5DF274C017744956006014CF /* DateChallenge */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DF274B817744956006014CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "SofDev Inc.";
+			};
+			buildConfigurationList = 5DF274BB17744956006014CF /* Build configuration list for PBXProject "DateChallenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5DF274B717744956006014CF;
+			productRefGroup = 5DF274C117744956006014CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DF274BF17744956006014CF /* DateChallenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DF274BC17744956006014CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF274C717744956006014CF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5DF274CC17744956006014CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5DF274CD17744956006014CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5DF274CF17744956006014CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DateChallenge/DateChallenge-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5DF274D017744956006014CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DateChallenge/DateChallenge-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DF274BB17744956006014CF /* Build configuration list for PBXProject "DateChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DF274CC17744956006014CF /* Debug */,
+				5DF274CD17744956006014CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DF274CE17744956006014CF /* Build configuration list for PBXNativeTarget "DateChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DF274CF17744956006014CF /* Debug */,
+				5DF274D017744956006014CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DF274B817744956006014CF /* Project object */;
+}
